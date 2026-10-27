@@ -3,168 +3,168 @@
 # 23 - 56
 # 0 - 45
 
-# range(10,101,1)
-# range(23,57,1)
-# range(46)
+range(10,101,1)
+range(23,57,1)
+range(46)
 
-# for i in range(10,101,10):
-#     print(i)
+for i in range(10,101,10):
+    print(i)
 
-# n = int(input("please tell your number :-"))
+n = int(input("please tell your number :-"))
 
-# for i in range(n,(n*10)+1,n):
-#     print(i)
+for i in range(n,(n*10)+1,n):
+    print(i)
 
 a = "Students"
 
-# for i in a:
-#     print(i)
+for i in a:
+    print(i)
 
-# for i in range(len(a)):
-#     print(a[i])
+for i in range(len(a)):
+    print(a[i])
 
-# for i in range(len(a)):
-#     print(f"{i} : {a[i]}")
+for i in range(len(a)):
+    print(f"{i} : {a[i]}")
 
-# for i in range(1,11):
-#     if i ==4:
-#         break
-#     print(i)
+for i in range(1,11):
+    if i ==4:
+        break
+    print(i)
 
-# for i in range(1,11):
-#     if i ==4 or i==5 or i ==6:
-#         continue
-#     print(i)
+for i in range(1,11):
+    if i ==4 or i==5 or i ==6:
+        continue
+    print(i)
 
-# for i in range(1,11):
-#     if i ==5:
-#         break
-#     print(i)
-# else:
-#     print("no break was encountered")
+for i in range(1,11):
+    if i ==5:
+        break
+    print(i)
+else:
+    print("no break was encountered")
 
 #Question1
 
-# n = int (input("tell your number :-"))
+n = int (input("tell your number :-"))
 
-# for i in range(n):
-#     print("hello world")
+for i in range(n):
+    print("hello world")
 
 #Question2
 
-# n = int (input("tell your number :-"))
+n = int (input("tell your number :-"))
 
-# for i in range(1,n+1):
-#     print(i)
+for i in range(1,n+1):
+    print(i)
 #Question3
 
-# n = int (input("tell your number :-"))
+n = int (input("tell your number :-"))
 
-# for i in range(n,0,-1):
-#     print(i)
+for i in range(n,0,-1):
+    print(i)
 
 #Question4
 
-# n = int (input("which table you want :-"))
+n = int (input("which table you want :-"))
 
-# for i in range(1,11):
-#     print(f"{n} x {i} = {n*i}")
+for i in range(1,11):
+    print(f"{n} x {i} = {n*i}")
 
 #Question5
 
-# s = 0
-# n = int (input("till where you want you sum :-"))
-# for i in range(1,n+1):
-#     s = s + i
+s = 0
+n = int (input("till where you want you sum :-"))
+for i in range(1,n+1):
+    s = s + i
 
-#     print(s)
+    print(s)
 
 #Question6 
 
-# n = int(input("tell your number :-"))
+n = int(input("tell your number :-"))
 
-# f = 1
+f = 1
 
-# for i in range(1,n+1):
-#     f = f*i
+for i in range(1,n+1):
+    f = f*i
      
-# print(f) 
+print(f) 
 
 #Question7
 
-# n = int(input("please tell your number:"))
+n = int(input("please tell your number:"))
 
-# oddsum = 0
-# evensum = 0
+oddsum = 0
+evensum = 0
 
-# for i in range(1,n+1):
-#     if i %2 ==0:
-#         evensum = evensum + i
-#     else:
-#         oddsum = oddsum + i
-# print(f"your even sum is {evensum} and odd sum is{oddsum}")
+for i in range(1,n+1):
+    if i %2 ==0:
+        evensum = evensum + i
+    else:
+        oddsum = oddsum + i
+print(f"your even sum is {evensum} and odd sum is{oddsum}")
 
 #Question8
 
-# n = int(input("tell your number :-"))
+n = int(input("tell your number :-"))
 
-# for i in range(1,n+1):
-#     if n % i ==0:
-#         print(i)
+for i in range(1,n+1):
+    if n % i ==0:
+        print(i)
 
 #Question9
 
-# n = int(input("tell your number :-"))
+n = int(input("tell your number :-"))
 
-# s = 0
+s = 0
 
-# for i in range(1,n+1):
-#     if n%i ==0:
-#         s == s + i
+for i in range(1,n+1):
+    if n%i ==0:
+        s == s + i
 
-# if s == n:
-#     print("prerfect number")
-# else:
-#     print("not a prefect number")   
+if s == n:
+    print("prerfect number")
+else:
+    print("not a prefect number")   
 
 #Question10
 
-# n = int(input("please tell your number :-"))
-# count = 0
+n = int(input("please tell your number :-"))
+count = 0
 
-# for i in range(1,n+1):
-#     if n % i ==0:
-#         count = count + 1
+for i in range(1,n+1):
+    if n % i ==0:
+        count = count + 1
 
-# if count == 2:
-#     print("prime number")
-# else:
-#     print("composite number")    
+if count == 2:
+    print("prime number")
+else:
+    print("composite number")    
 
 #Question11
 
-# a = "python"
+a = "python"
 
-# print(a[::-1])
+print(a[::-1])
 
-# a = "python"
-# rev = ""
-# for i in range(len(a)-1,-1,-1):
-#     rev = rev + a[i]
+a = "python"
+rev = ""
+for i in range(len(a)-1,-1,-1):
+    rev = rev + a[i]
 
-# print(rev)    
+print(rev)    
 
 #Question12
 
-# a = input("tell your string")
-# rev = ""
-# for i in range(len(a)-1,-1,-1):
-#     rev = rev + a[i]
+a = input("tell your string")
+rev = ""
+for i in range(len(a)-1,-1,-1):
+    rev = rev + a[i]
 
-# if rev ==a:
-#     print("yes palindrome")
-# else:
-#     print("no not a palindrome")    
+if rev ==a:
+    print("yes palindrome")
+else:
+    print("no not a palindrome")    
 
 #Question13
 
